@@ -96,5 +96,6 @@ mv2/
 - **프레임워크 없음**: HTML·CSS·JavaScript 단일 파일, 빌드 과정 불필요
 - **PWA**: manifest + 서비스워커로 설치·오프라인 지원
 - **음성**: ElevenLabs `eleven_multilingual_v2` (mp3 44.1kHz 128kbps)
+- **장절 낭독**: 구절 음성은 장절을 앞에서 한 번 읽고 본문이 이어집니다
 - **강조색**: 파랑 (#6cb2f2)
 - **호스팅**: GitHub Pages
