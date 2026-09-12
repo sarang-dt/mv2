@@ -9,9 +9,9 @@
  *  음성 캐시(AUDIO)는 파일명이 바뀌지 않는 한 그대로 유지합니다.
  */
 
-const SHELL_VER = 'v6';   // 제목에서 권·과 번호 제거
+const SHELL_VER = 'v7';   // 3-2과 두번째 구절 교체
 const SHELL = `mv2-shell-${SHELL_VER}`;
-const AUDIO = 'mv2-audio-v6';
+const AUDIO = 'mv2-audio-v7';
 const FONT  = 'mv2-font-v1';
 
 const SHELL_FILES = [
