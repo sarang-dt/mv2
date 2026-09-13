@@ -9,7 +9,7 @@
  *  음성 캐시(AUDIO)는 파일명이 바뀌지 않는 한 그대로 유지합니다.
  */
 
-const SHELL_VER = 'v8';   // 교회 로고 변경
+const SHELL_VER = 'v9';   // 여러 절 본문에 절 번호 표시
 const SHELL = `mv2-shell-${SHELL_VER}`;
 const AUDIO = 'mv2-audio-v7';
 const FONT  = 'mv2-font-v1';

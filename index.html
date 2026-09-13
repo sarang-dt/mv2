@@ -285,6 +285,16 @@
             line-height: 1.8;
             letter-spacing: -0.005em;
         }
+        /* 여러 절로 된 본문의 절 번호 */
+        .verse-text .vnum {
+            font-size: 0.62em;
+            font-weight: 700;
+            color: var(--accent);
+            opacity: 0.8;
+            vertical-align: 0.42em;
+            margin-right: 3px;
+            letter-spacing: 0;
+        }
         .verse-card.playing .verse-text {
             color: var(--text1);
         }
@@ -756,8 +766,8 @@ const WEEKS = [
             {
                 base: "B1L04b_Phil_4-6-7",
                 ref:  { ko: "빌립보서 4:6-7", en: "Philippians 4:6-7" },
-                text: { ko: "아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라 그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라",
-                        en: "do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." }
+                text: { ko: "<span class='vnum'>6</span>아무 것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라 <span class='vnum'>7</span>그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라",
+                        en: "<span class='vnum'>6</span>do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. <span class='vnum'>7</span>And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." }
             }
         ]
     },
@@ -845,8 +855,8 @@ const WEEKS = [
             {
                 base: "B2L05a_Eph_2-8-9",
                 ref:  { ko: "에베소서 2:8-9", en: "Ephesians 2:8-9" },
-                text: { ko: "너희는 그 은혜에 의하여 믿음으로 말미암아 구원을 받았으니 이것은 너희에게서 난 것이 아니요 하나님의 선물이라 행위에서 난 것이 아니니 이는 누구든지 자랑하지 못하게 함이라",
-                        en: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast." }
+                text: { ko: "<span class='vnum'>8</span>너희는 그 은혜에 의하여 믿음으로 말미암아 구원을 받았으니 이것은 너희에게서 난 것이 아니요 하나님의 선물이라 <span class='vnum'>9</span>행위에서 난 것이 아니니 이는 누구든지 자랑하지 못하게 함이라",
+                        en: "<span class='vnum'>8</span>For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, <span class='vnum'>9</span>not a result of works, so that no one may boast." }
             },
             {
                 base: "B2L05b_Titus_3-5",
@@ -870,8 +880,8 @@ const WEEKS = [
             {
                 base: "B2L06b_Gal_5-22-23",
                 ref:  { ko: "갈라디아서 5:22-23", en: "Galatians 5:22-23" },
-                text: { ko: "오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과 온유와 절제니 이같은 것을 금지할 법이 없느니라",
-                        en: "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law." }
+                text: { ko: "<span class='vnum'>22</span>오직 성령의 열매는 사랑과 희락과 화평과 오래 참음과 자비와 양선과 충성과 <span class='vnum'>23</span>온유와 절제니 이같은 것을 금지할 법이 없느니라",
+                        en: "<span class='vnum'>22</span>But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, <span class='vnum'>23</span>gentleness, self-control; against such things there is no law." }
             }
         ]
     },
@@ -908,8 +918,8 @@ const WEEKS = [
             {
                 base: "B2L08b_John_13-34-35",
                 ref:  { ko: "요한복음 13:34-35", en: "John 13:34-35" },
-                text: { ko: "새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라 너희가 서로 사랑하면 이로써 모든 사람이 너희가 내 제자인 줄 알리라",
-                        en: "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. By this all people will know that you are my disciples, if you have love for one another." }
+                text: { ko: "<span class='vnum'>34</span>새 계명을 너희에게 주노니 서로 사랑하라 내가 너희를 사랑한 것 같이 너희도 서로 사랑하라 <span class='vnum'>35</span>너희가 서로 사랑하면 이로써 모든 사람이 너희가 내 제자인 줄 알리라",
+                        en: "<span class='vnum'>34</span>A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another. <span class='vnum'>35</span>By this all people will know that you are my disciples, if you have love for one another." }
             }
         ]
     },
@@ -946,8 +956,8 @@ const WEEKS = [
             {
                 base: "B3L02b_Eph_4-22-24",
                 ref:  { ko: "에베소서 4:22-24", en: "Ephesians 4:22-24" },
-                text: { ko: "너희는 유혹의 욕심을 따라 썩어져 가는 구습을 따르는 옛 사람을 벗어 버리고 오직 너희의 심령이 새롭게 되어 하나님을 따라 의와 진리의 거룩함으로 지으심을 받은 새 사람을 입으라",
-                        en: "to put off your old self, which belongs to your former manner of life and is corrupt through deceitful desires, and to be renewed in the spirit of your minds, and to put on the new self, created after the likeness of God in true righteousness and holiness." }
+                text: { ko: "<span class='vnum'>22</span>너희는 유혹의 욕심을 따라 썩어져 가는 구습을 따르는 옛 사람을 벗어 버리고 <span class='vnum'>23</span>오직 너희의 심령이 새롭게 되어 <span class='vnum'>24</span>하나님을 따라 의와 진리의 거룩함으로 지으심을 받은 새 사람을 입으라",
+                        en: "<span class='vnum'>22</span>to put off your old self, which belongs to your former manner of life and is corrupt through deceitful desires, <span class='vnum'>23</span>and to be renewed in the spirit of your minds, <span class='vnum'>24</span>and to put on the new self, created after the likeness of God in true righteousness and holiness." }
             }
         ]
     },
